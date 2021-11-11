@@ -1,6 +1,9 @@
 from torch.utils.data import Dataset
+import torchvision
 
-
-class SIFAR10Dataset(Dataset):
-    pass
+# cifar10 = torchvision.datasets.CIFAR10(
+#     root='data',
+#     train=True,
+#     download=False
+# )
 
